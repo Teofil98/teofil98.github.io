@@ -1,0 +1,55 @@
+h1 {
+    font-size: 40px;
+    text-align: left;
+    margin-left: 100px
+}
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 500px 500px;
+  gap: 30px;
+  justify-content: center;
+  padding: 30px 0px 0px 0px;
+}
+
+.wrapper2 {
+  display: grid;
+  grid-template-columns: 1000px;
+  gap: 30px;
+  justify-content: center;
+  padding: 30px 0px 0px 0px;
+}
+.row_wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+}
+
